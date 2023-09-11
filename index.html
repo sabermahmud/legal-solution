@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legal Solution</title>
     <!-- favicon link -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <!-- tailwind & daisyUI link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -15,18 +15,115 @@
     <!-- google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- ******************************** linking section end ******************************** -->
     <!-- custom css styles  -->
     <style>
-        .font-eb-garamond{
+        .font-eb-garamond {
             font-family: 'EB Garamond', serif;
+        }
+        .poppins{
+            font-family: 'Poppins', sans-serif;
         }
     </style>
 </head>
 
 <body class="font-eb-garamond">
+    <!--/////////////////////////////////// header section ///////////////////////////////////-->
+    <header class="p-6">
+        <div class="navbar bg-base-100 flex-col md:flex-row gap-4 poppins">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>
+                                Services
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a></li>
+                        <li><a>
+                                Cases
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a></li>
+                        <li><a>
+                                Blog
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a></li>
+                        <li><a>
+                                Contact Us
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a></li>
+                    </ul>
+                </div>
+                <img src="./images/logo2.png" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a class="text-lg text-yellow-800">Home</a></li>
+                    <li tabindex="0">
+                        <a class="text-lg text-yellow-800">
+                            Services
+                            <i class="text-yellow-800 fa-solid fa-angle-right"></i>
+                        </a>
+                    </li>
+                    <li><a class="text-lg text-yellow-800">
+                        Cases
+                        <i class="text-yellow-800 fa-solid fa-angle-right"></i>
+                    </a></li>
+                    <li><a class="text-lg text-yellow-800">
+                        Blog
+                        <i class="text-yellow-800 fa-solid fa-angle-right"></i>
+                    </a></li>
+                    <li><a class="text-lg text-yellow-800">
+                        Contact Us
+                        <i class="text-yellow-800 fa-solid fa-angle-right"></i>
+                    </a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class=" btn text-white bg-yellow-800 text-lg">Free Consultation</a>
+            </div>
+        </div>
+        <div class="hero min-h-screen" style="background-image: url(./images/banner.png);">
+            <div class="hero-overlay bg-opacity-30"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div>
+                <h1 class="mb-5 text-7xl font-extrabold">
+                    We Provide Effective <br>
+                     Legal Solutions</h1>
+                <p class="mb-5 lg:max-w-2xl poppins">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div class=" poppins flex justify-center gap-4">
+                    <input type="text" placeholder="Search your services" class="input input-bordered w-full  max-w-xs lg:max-w-2xl" />
+                    <button class=" btn bg-yellow-800 text-white border-0 ">Get Started</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </header>
+    <!--/////////////////////////////////// header section ///////////////////////////////////-->
 
+    <!-- ------------------------------------------------------------------------------------ -->
+
+    <!--/////////////////////////////////// main section ///////////////////////////////////-->
+    <main>
+
+    </main>
+    <!--/////////////////////////////////// main section ///////////////////////////////////-->
+
+    <!-- ------------------------------------------------------------------------------------ -->
+
+    <!--/////////////////////////////////// footer section ///////////////////////////////////-->
+    <footer>
+
+    </footer>
+    <!--/////////////////////////////////// footer section ///////////////////////////////////-->
 </body>
 
 </html>
