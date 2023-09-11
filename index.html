@@ -15,14 +15,17 @@
     <!-- google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <!-- ******************************** linking section end ******************************** -->
     <!-- custom css styles  -->
     <style>
         .font-eb-garamond {
             font-family: 'EB Garamond', serif;
         }
-        .poppins{
+
+        .poppins {
             font-family: 'Poppins', sans-serif;
         }
     </style>
@@ -30,7 +33,7 @@
 
 <body class="font-eb-garamond">
     <!--/////////////////////////////////// header section ///////////////////////////////////-->
-    <header class="p-6">
+    <header class="max-w-6xl mx-auto mb-24">
         <div class="navbar bg-base-100 flex-col md:flex-row gap-4 poppins">
             <div class="navbar-start">
                 <div class="dropdown">
@@ -74,17 +77,17 @@
                         </a>
                     </li>
                     <li><a class="text-lg text-yellow-800">
-                        Cases
-                        <i class="text-yellow-800 fa-solid fa-angle-right"></i>
-                    </a></li>
+                            Cases
+                            <i class="text-yellow-800 fa-solid fa-angle-right"></i>
+                        </a></li>
                     <li><a class="text-lg text-yellow-800">
-                        Blog
-                        <i class="text-yellow-800 fa-solid fa-angle-right"></i>
-                    </a></li>
+                            Blog
+                            <i class="text-yellow-800 fa-solid fa-angle-right"></i>
+                        </a></li>
                     <li><a class="text-lg text-yellow-800">
-                        Contact Us
-                        <i class="text-yellow-800 fa-solid fa-angle-right"></i>
-                    </a></li>
+                            Contact Us
+                            <i class="text-yellow-800 fa-solid fa-angle-right"></i>
+                        </a></li>
                 </ul>
             </div>
             <div class="navbar-end">
@@ -94,26 +97,123 @@
         <div class="hero min-h-screen" style="background-image: url(./images/banner.png);">
             <div class="hero-overlay bg-opacity-30"></div>
             <div class="hero-content text-center text-neutral-content">
-              <div>
-                <h1 class="mb-5 text-7xl font-extrabold">
-                    We Provide Effective <br>
-                     Legal Solutions</h1>
-                <p class="mb-5 lg:max-w-2xl poppins">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                <div class=" poppins flex justify-center gap-4">
-                    <input type="text" placeholder="Search your services" class="input input-bordered w-full  max-w-xs lg:max-w-2xl" />
-                    <button class=" btn bg-yellow-800 text-white border-0 ">Get Started</button>
+                <div>
+                    <h1 class="mb-5 text-7xl font-extrabold">
+                        We Provide Effective <br>
+                        Legal Solutions</h1>
+                    <p class="mb-5 lg:max-w-2xl poppins">There are many variations of passages of Lorem Ipsum available,
+                        but the majority have suffered alteration in some form, by injected humour.</p>
+                    <div class=" poppins flex justify-center gap-4">
+                        <input type="text" placeholder="Search your services"
+                            class="input input-bordered w-full  max-w-xs lg:max-w-2xl" />
+                        <button class=" btn bg-yellow-800 text-white border-0 ">Get Started</button>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
+        </div>
     </header>
     <!--/////////////////////////////////// header section ///////////////////////////////////-->
 
     <!-- ------------------------------------------------------------------------------------ -->
 
     <!--/////////////////////////////////// main section ///////////////////////////////////-->
-    <main>
-
+    <main class="max-w-6xl mx-auto">
+        <!-- Legal-Practice -->
+        <section class="legal-practice mb-24">
+            <h2 class="text-4xl font-extrabold text-center mb-6">
+                The Legal Practice Area
+            </h2>
+            <p class="poppins max-w-3xl mx-auto mb-16">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour.
+            </p>
+            <div class="card-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 divide-x divide-yellow-200 ">
+                <div class="card  bg-base-100 shadow-xl rounded-none">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/business.png" alt="Shoes" class="my-8" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-2xl font-extrabold mb-6">Business Law</h2>
+                        <p class="mb-8 poppins w-64 text-yellow-800">There are many variations of passages of Lorem Ipsum available, but the majority
+                            have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions">
+                            <button class="text-yellow-800 "><i
+                                    class="text-4xl fa-solid fa-circle-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card  bg-base-100 shadow-xl rounded-none">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/criminal.png" alt="Shoes" class="my-8" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-2xl font-extrabold mb-6">Criminal Law</h2>
+                        <p class="mb-8 poppins w-64 text-yellow-800">There are many variations of passages of Lorem Ipsum available, but the majority
+                            have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions">
+                            <button class="text-yellow-800 "><i
+                                    class="text-4xl fa-solid fa-circle-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card  bg-base-100 shadow-xl rounded-none">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/child.png" alt="Shoes" class="my-8" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-2xl font-extrabold mb-6">Child Support</h2>
+                        <p class="mb-8 poppins w-64 text-yellow-800">There are many variations of passages of Lorem Ipsum available, but the majority
+                            have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions">
+                            <button class="text-yellow-800 "><i
+                                    class="text-4xl fa-solid fa-circle-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card  bg-base-100 shadow-xl rounded-none">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/education.png" alt="Shoes" class="my-8" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-2xl font-extrabold mb-6">Education Law</h2>
+                        <p class="mb-8 poppins w-64 text-yellow-800">There are many variations of passages of Lorem Ipsum available, but the majority
+                            have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions">
+                            <button class="text-yellow-800 "><i
+                                    class="text-4xl fa-solid fa-circle-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card  bg-base-100 shadow-xl rounded-none">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/divorce.png" alt="Shoes" class="my-8" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-2xl font-extrabold mb-6">Divorce Law</h2>
+                        <p class="mb-8 poppins w-64 text-yellow-800">There are many variations of passages of Lorem Ipsum available, but the majority
+                            have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions">
+                            <button class="text-yellow-800 "><i
+                                    class="text-4xl fa-solid fa-circle-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card  bg-base-100 shadow-xl rounded-none">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/tax.png" alt="Shoes" class="my-8" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-2xl font-extrabold mb-6">Tax Law</h2>
+                        <p class="mb-8 poppins w-64 text-yellow-800">There are many variations of passages of Lorem Ipsum available, but the majority
+                            have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions">
+                            <button class="text-yellow-800 "><i
+                                    class="text-4xl fa-solid fa-circle-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!--/////////////////////////////////// main section ///////////////////////////////////-->
 
